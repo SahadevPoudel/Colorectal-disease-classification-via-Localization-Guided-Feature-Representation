@@ -5,6 +5,6 @@ Official keras implementation of the paper "Colorectal Disease Classification vi
 
 **Install dependencies**
 
-  python -m pip install -r requirements.txt
+      python -m pip install -r requirements.txt
   
  This code was tested with python 3.6
