@@ -14,5 +14,10 @@ Official keras implementation of the paper "Colorectal Disease Classification vi
 
 To train the model on the datasets, put the desire datasets on the following structure, Datasets / (Training, validation , Testing )
 
-     python main.py --mode train --epoch 100 --checkckpt_dir ./saved_model --plot yes --batch_size 16 --lr 0.001
+     python main.py --mode train --dataroot /...../Datasets --dataset_type Colorectal --epoch 100 --checkckpt_dir ./saved_model --plot yes --batch_size 16 --lr 0.001
 
+**Test**
+
+To test the trained model on the dataset, load the model from the checkpoint directory and provide the datasets path.
+
+      python main.py --mode test --dataroot /...../Datasets --dataset_type Colorectal 
