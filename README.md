@@ -11,8 +11,9 @@ Official keras implementation of the paper "Colorectal Disease Classification vi
  
  **Train**
  
- To train the model on the datasets, put the desire datasets on the following structure:
- /root directory:
-        Training
-        Validation
-        Testing
+
+       To train the model on the datasets, put the desire datasets on the following structure:
+       /root directory:
+              Training
+              Validation
+              Testing
