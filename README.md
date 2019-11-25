@@ -27,3 +27,7 @@ To test the trained model on the dataset, load the model from the checkpoint dir
 To visualize the model in Class Activation Mapping (CAM) on the particular image,then run
 
       python main.py --mode visualize --load_model /...../model.h5 --image_path /...../adenoma.jpg
+      
+**Results**
+
+![With the proposed model, The similar-looking images were classified successfully. For example:](https://github.com/SahadevPoudel/Colorectal-disease-classification-via-Localization-Guided-Feature-Representation/blob/master/images/result.png)
