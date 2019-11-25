@@ -1,7 +1,7 @@
 # Colorectal-disease-classification-via-Localization-Guided-Feature-Representation
 **Official keras implementation of the paper "Colorectal Disease Classification via Localization Guided Feature Representation"**
 
-**Abstract** :\ 
+**Abstract** : 
 Computer-aided   diagnosis   systems   developed   by
 computer  vision  researchers  have  helped  doctors  to  recognize
 several  endoscopic  colorectal  images  diseases  more  rapidly.  Nu-
