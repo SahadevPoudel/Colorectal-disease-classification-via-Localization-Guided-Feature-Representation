@@ -12,5 +12,7 @@ Official keras implementation of the paper "Colorectal Disease Classification vi
  **Train**
  
 
-To train the model on the datasets, put the desire datasets on the following structure, datasets/ Training, validation , Testing\
+To train the model on the datasets, put the desire datasets on the following structure, Datasets / (Training, validation , Testing )
+
+            python main.py --mode train --epoch 100 --checkckpt_dir ./saved_model --plot yes --batch_size 16 --lr 0.001
 
