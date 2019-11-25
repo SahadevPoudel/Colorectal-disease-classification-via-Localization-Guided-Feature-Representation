@@ -20,4 +20,10 @@ To train the model on the datasets, put the desire datasets on the following str
 
 To test the trained model on the dataset, load the model from the checkpoint directory and provide the datasets path.
 
-      python main.py --mode test --dataroot /...../Datasets --dataset_type Colorectal 
+      python main.py --mode test --dataroot /...../Datasets --dataset_type Colorectal --load_model /...../model.h5
+      
+
+**Visualize**
+To visualize the model in Class Activation Mapping (CAM) on the particular image,then run
+
+      python main.py --mode visualize --load_model /...../model.h5 --image_path /...../adenoma.jpg
