@@ -12,13 +12,13 @@
  **Train**
  
 
-To train the model on the datasets, put the desire datasets on the following structure, Datasets / (Training, validation , Testing )
+To train the model on the datasets, put the desire dataset on the following structure, Dataset / (Training, validation , Testing )
 
      python main.py --mode train --dataroot /...../Datasets --dataset_type Colorectal --epoch 100 --checkckpt_dir ./saved_model --plot yes --batch_size 16 --lr 0.001
 
 **Test**
 
-To test the trained model on the dataset, load the model from the checkpoint directory and provide the datasets path.
+To test the trained model on the dataset, load the model from the checkpoint directory and provide the dataset path.
 
       python main.py --mode test --dataroot /...../Datasets --dataset_type Colorectal --load_model /...../model.h5
       
