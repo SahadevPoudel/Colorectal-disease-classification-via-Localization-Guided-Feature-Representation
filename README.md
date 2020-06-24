@@ -1,29 +1,9 @@
-# Colorectal-disease-classification-via-Localization-Guided-Feature-Representation
-**Official keras implementation of the paper "Colorectal Disease Classification via Localization Guided Feature Representation"**
+# Colorectal Disease Classification Using Efficiently Scaled Dilation in Convolutional Neural Network
+**Official keras implementation of the paper "Colorectal Disease Classification Using Efficiently Scaled Dilation in Convolutional Neural Network
+"**
 
 **Abstract** : 
-Computer-aided   diagnosis   systems   developed   by
-computer  vision  researchers  have  helped  doctors  to  recognize
-several  endoscopic  colorectal  images  diseases  more  rapidly.  Nu-
-merous  studies  have  focused  on  procedures  based  on  machine
-learning and deep learning that maximize the use of endoscopic
-colon  images  for  accurate  feature  extraction  and  classification.
-However, none of the existing methods analysed the features that
-the  system  learned.  In  this  paper,  we  learn  useful  endoscopic
-features directly from the raw representations of input data using
-Convolutional Neural Networks(CNNs), and gain intuition of the
-chosen features based on a Class Activation Mapping (CAM) [1].
-As  a  result,  we  find  that  the  use  of  dimensionality  reduction  in
-the  CNN  caused  the  loss  of  spatial  details,  resulting  in  miss  of
-polyps  and  confound  in  similar-looking  images.  Based  on  these
-findings,  we  increased  the  receptive  field  of  view  at  the  deep
-layers of the network using dilated convolution. Additionally, we
-used  a  regularization  technique  called  DropBlock  [2]  to  reduce
-overfitting and deal with noise, and artifacts. We compared and
-evaluated  our  method  using  various  metrics:  accuracy,  recall,
-precision,   and   F1-score.   Experimental   results   show   that   the
-proposed  architecture  outperforms  the  traditional  CNNs  and
-existing  methods.
+Computer-aided diagnosis systems developed by computer vision researchers have helped doctors to recognize several endoscopic colorectal diseases more rapidly, which allows appropriate treatment and increases the patient’s survival ratio. Herein, we present a robust architecture for endoscopic image classification using an efficient dilation in Convolutional Neural Network (CNNs). It has a high receptive field of view at the deep layers in increasing and decreasing dilation factor to preserve spatial details. We argue that dimensionality reduction in CNN can cause the loss of spatial information, resulting in miss of polyps and confusion in similar-looking images. Additionally, we use a regularization technique called DropBlock to reduce overfitting and deal with noise and artifacts. We compare and evaluate our method using various metrics: accuracy, recall, precision, and F1-score. Our experiments demonstrate that the proposed method provides the F1-score of 0.93 for Colorectal dataset and F1-score of 0.88 for KVASIR dataset. Experiments show higher accuracy of the proposed method over traditional methods when classifying endoscopic colon diseases.
 
 **Code**
 
